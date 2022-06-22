@@ -4,15 +4,23 @@ My personal config
 #Keybindings.json
 
 [
-  { "key": "shift+alt+down",   "command": "editor.action.copyLinesDownAction",
-    "when": "editorTextFocus" },
-  { "key": "shift+alt+up",     "command": "editor.action.copyLinesUpAction",
-    "when": "editorTextFocus" },
+
+  { 
+    "key": "shift+alt+down",   
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus" 
+  },   
+  { 
+    "key": "shift+alt+up",     
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus" 
+   }
 ]
 
 #Settings.json
 
 {    
+
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
@@ -54,4 +62,5 @@ My personal config
 
     "javascript.suggest.autoImports": true,
     "typescript.suggest.autoImports": true,
+
 }
