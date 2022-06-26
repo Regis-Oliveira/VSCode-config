@@ -26,7 +26,11 @@ My personal config
     "editor.fontSize": 16,
     "editor.lineHeight": 26,
     "editor.semanticHighlighting.enabled": false,
-    "editor.tabSize" : 2,
+    "editor.tabSize" : 2,    
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.guides.indentation": true,
+    "editor.guides.bracketPairs": "active",
 
     "workbench.colorTheme": "Dracula Pro",
     "workbench.iconTheme": "material-icon-theme",
