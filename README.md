@@ -56,7 +56,8 @@ My personal config
     },
 
     "[prisma]" : {
-        "editor.formatOnSave" : true
+        "editor.formatOnSave" : true,
+        "editor.defaultFormatter": "Prisma.prisma",
     },
     
     "material-icon-theme.activeIconPack" : "nest",
@@ -65,6 +66,5 @@ My personal config
     "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
     "javascript.suggest.autoImports": true,
-    "typescript.suggest.autoImports": true,
-
+    "typescript.suggest.autoImports": true,   
 }
